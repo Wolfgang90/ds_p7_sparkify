@@ -16,6 +16,9 @@ In my capstone project I therefore want to use a big data dataset to predict chu
 | Sparkify.html          | contains project code as .html.                                                                    |
 
 ## Summary of the analysis results
-The project was able to predict user churn with around 0.90 accuracy and f1-score. The good prediction results are the basis for performing automatic measures for custumers with churning potential to prevent their churn.
+The project defined a churn metric, features and a model to predict churn based on eatures. The model had a high f1-score of 0.90399 as well as a high accuracy of 0.91176. The good prediction results are a solid foundation for installing automatic measures to significantly reduce user churn as a next step.
+
+For a more detailed elaboration on the project please refer to my [blogpost][2] on the topic.
 
 [1]: https://www.forbes.com/sites/larrymyler/2016/06/08/acquiring-new-customers-is-important-but-retaining-them-accelerates-profitable-growth/#4314b907667
+[2]: https://medium.com/@eichler_wolfgang/how-to-predict-churn-in-an-online-streaming-business-2a1ddd5461e5
