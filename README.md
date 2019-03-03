@@ -18,7 +18,7 @@ In my capstone project I therefore want to use a big data dataset to predict chu
 | Sparkify_AWS.html        | contains project code for for grid search and cross validation as.html.                                    |
 
 ## Summary of the analysis results
-The project defined a churn metric, features and a model to predict churn based on the features. The best model created using cross validation had a f1-score of x and an accuracy of x. The good prediction results are a solid foundation for installing automatic measures to significantly reduce user churn as a next step.
+The project defined a churn metric, features and a model to predict churn based on features. The final model was a random forest model with a maximum depth of 8. The model had a f1-score of 0.86695 and an accuracy of 0.88235. The good prediction results are a solid foundation for installing automatic measures to significantly reduce user churn as a next step. 
 
 For a more detailed elaboration on the project please refer to my [blogpost][2] on the topic.
 
