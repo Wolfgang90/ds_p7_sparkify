@@ -9,14 +9,16 @@ Today's online businesses have a vast data pool to use to predict churn. To be a
 
 In my capstone project I therefore want to use a big data dataset to predict churn. I am using the Sparkify-dataset, a dataset of a hypothetical music streaming service such as Spotify, to early-detect churn.
 ## Files in the repository
-| Filename               | Explanation                                                                                       |
-| ---------------------- |:--------------------------------------------------------------------------------------------------|
-| README.md              | contains technical informations and elaborations on the project.                                   |
-| Sparkify.ipynb         | contains project code.                                                                             |
-| Sparkify.html          | contains project code as .html.                                                                    |
+| Filename                 | Explanation                                                                                                |
+| ------------------------ |:-----------------------------------------------------------------------------------------------------------|
+| README.md                | contains technical informations and elaborations on the project.                                           |
+| Sparkify_Workspace.ipynb | contains project code for most of the analysis except for grid search and cross validation.                |
+| Sparkify_Workspace.html  | contains project code for most of the analysis, except for grid search and cross validation as .html.      |
+| Sparkify_AWS.ipynb       | contains project code for for grid search and cross validation.                                            |
+| Sparkify_AWS.html        | contains project code for for grid search and cross validation as.html.                                    |
 
 ## Summary of the analysis results
-The project defined a churn metric, features and a model to predict churn based on eatures. The model had a high f1-score of 0.90399 as well as a high accuracy of 0.91176. The good prediction results are a solid foundation for installing automatic measures to significantly reduce user churn as a next step.
+The project defined a churn metric, features and a model to predict churn based on the features. The best model created using cross validation had a f1-score of x and an accuracy of x. The good prediction results are a solid foundation for installing automatic measures to significantly reduce user churn as a next step.
 
 For a more detailed elaboration on the project please refer to my [blogpost][2] on the topic.
 
